@@ -19,7 +19,7 @@ const nextConfig = {
               ],
               permanent: true,
               basePath: false,
-              destination: `${process.env.GRAPHQL_ENDPOINT}/:path*`
+              destination: `${process.env.REDIRECT_DOMAIN}/:path*`
             },
           ]
         } else {
